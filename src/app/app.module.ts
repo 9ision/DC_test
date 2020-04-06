@@ -15,6 +15,7 @@ import { OrderTrackingComponent } from './order-tracking/order-tracking.componen
 import { WishlistComponent } from './wishlist/wishlist.component';
 import { LoginRegisterComponent } from './login-register/login-register.component';
 import { HomeComponent } from './home/home.component';
+import { Page404Component } from './page404/page404.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { HomeComponent } from './home/home.component';
     OrderTrackingComponent,
     WishlistComponent,
     LoginRegisterComponent,
-    HomeComponent
+    HomeComponent,
+    Page404Component
   ],
   imports: [
     BrowserModule,
